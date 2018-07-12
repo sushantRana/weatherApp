@@ -34,6 +34,10 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+Select the location by searching via the searchbar at the top.
+click on the marker to know the weather pattern for the next five days including todays.
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
