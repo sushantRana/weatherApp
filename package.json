@@ -2,10 +2,13 @@
   "name": "weatherapp",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "8.11.3",
+    "npm": "5.0.3"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "chart.js": "^2.7.2",
-    "classnames": "^2.2.6",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "lodash": "^4.17.10",
