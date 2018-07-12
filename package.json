@@ -1,0 +1,39 @@
+{
+  "name": "weatherapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.2",
+    "classnames": "^2.2.6",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "lodash": "^4.17.10",
+    "moxios": "^0.4.0",
+    "react": "^16.4.1",
+    "react-chartjs-2": "^2.7.2",
+    "react-dom": "^16.4.1",
+    "react-google-maps": "^9.4.5",
+    "react-modal": "^3.5.1",
+    "react-places-autocomplete": "^7.2.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.4.1",
+    "redux": "^4.0.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/components/AutocompleteBox/AutocompleteBox.js",
+      "!src/index.js",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/path/to/dir/"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
